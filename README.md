@@ -3,7 +3,7 @@ We built an attention model to detect intent.
 
 In this notebook we will discuss one of the classic applications of NLP, intent detection. 
 We will try to solve this problem using one of the most powerful ideas available for natural language tasks, an attention mechanism on top of a recurrent neural network, RNN.
-The dataset we encounter is imbalanced, like most real datasets, but we will encounter that we can fix this issue. 
+The dataset we encounter is imbalanced, like most real datasets, but we will see that we can fix this issue. 
 First that all, we will preprocess the text, because as we know neural networks deal with vectors and matrices, so we need to convert our word into vectors.
 How are we going to do that? Well, there are a few approaches but we will use something called word embeddings because these have proved to
 encapsulate the meaning of words in a superior manner. In fact, it was discovered that this technique could even handle analogies! This is kind of a proof that
